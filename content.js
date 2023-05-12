@@ -6,6 +6,9 @@ const r = document.querySelector(':root');
 r.style.setProperty("--ds-color-london-5", "white")
 r.style.setProperty("--ds-color-london-10", "white")
 
+// idk
+r.style.setProperty("--ds-color-los-angeles-95", "transparent")
+
 // masthead popup background
 // r.style.setProperty("--ds-color-london-20", "white")
 // for (const e of document.getElementsByClassName("ds-masthead is-open")) {
@@ -15,6 +18,11 @@ r.style.setProperty("--ds-color-london-10", "white")
 // masthead, masthead popup text
 // r.style.setProperty("--ds-color-london-100", "transparent")
 for (const e of document.getElementsByClassName("styled-masthead")) {
+    e.style.backgroundColor = "transparent"
+}
+
+// aside tag
+for (const e of document.getElementsByClassName("article__body-aside")) {
     e.style.backgroundColor = "transparent"
 }
 
