@@ -1,23 +1,21 @@
-function setWhiteText(element) {
-    element.style.color = "white";
-}
+// https://www.w3schools.com/css/css3_variables_javascript.asp
 
-function setBlackBackground(element) {
-    element.style.backgroundColor = "black";
-}
+const r = document.querySelector(':root');
 
 // text
-const tags = ["p", "span", "small", "figcaption", "a", "h1", "h2", "h3", "h4", "h5", "h6"];
+r.style.setProperty("--ds-color-london-5", "white")
+r.style.setProperty("--ds-color-london-10", "white")
 
-for (const t of tags) {
-    for (const e of document.getElementsByTagName(t)) {
-        setWhiteText(e)
-    }
-}
+// masthead popup background
+// r.style.setProperty("--ds-color-london-20", "white")
+// for (const e of document.getElementsByClassName("ds-masthead is-open")) {
+//     e.style.background = "grey"
+// }
 
-// masthead
+// masthead, masthead popup text
+// r.style.setProperty("--ds-color-london-100", "transparent")
 for (const e of document.getElementsByClassName("styled-masthead")) {
-    setBlackBackground(e)
+    e.style.backgroundColor = "transparent"
 }
 
-setBlackBackground(document.body);
+document.body.style.backgroundColor = "black"
