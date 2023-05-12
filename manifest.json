@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Econ Dark Theme",
+  "version": "1.0",
+  "description": "Read economist.com in dark theme",
+  "content_scripts": [
+    {
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "https://economist.com/*",
+        "https://www.economist.com/*"
+      ]
+    }
+  ]
+}
