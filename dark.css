@@ -1,0 +1,21 @@
+/*https://bugs.chromium.org/p/chromium/issues/detail?id=776891*/
+
+body {
+    background: black;
+}
+
+.article__body-aside, ._newsletterContentPromo {
+    background-color: transparent !important;
+}
+
+._content-promo-description {
+    color: white !important;
+}
+
+.styled-masthead, .ds-masthead.account-is-open {
+    background-color: transparent !important;
+}
+
+.ds-masthead.account-is-open .ds-masthead-account-lists, .ds-masthead.is-open, footer {
+    background-color: black !important;
+}

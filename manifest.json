@@ -8,10 +8,14 @@
       "js": [
         "content.js"
       ],
+      "css": [
+        "dark.css"
+      ],
       "matches": [
         "https://economist.com/*",
         "https://www.economist.com/*"
-      ]
+      ],
+      "run_at": "document_start"
     }
   ]
 }
