@@ -16,6 +16,6 @@ body {
     background-color: transparent !important;
 }
 
-.ds-masthead.account-is-open .ds-masthead-account-lists, .ds-masthead.is-open, footer {
+.ds-masthead.account-is-open .ds-masthead-account-lists, .ds-masthead.is-open, .ds-masthead.search-is-open, #masthead-search, footer {
     background-color: black !important;
 }
