@@ -14,3 +14,6 @@ r.style.setProperty("--ds-color-los-angeles-95", "transparent")
 
 // anchor hover
 r.style.setProperty("--ds-color-chicago-30", "white")
+
+// special report menu
+r.style.setProperty("--ds-color-london-95", "black")
