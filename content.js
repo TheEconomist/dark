@@ -9,6 +9,9 @@ r.style.setProperty("--ds-color-london-10", "#f9f9f9")
 // masthead menu background color
 r.style.setProperty("--ds-color-london-20", "#f9f9f9")
 
+// special article banner
+r.style.setProperty("--ds-color-london-95", "#0d0d0d")
+
 // box thingy
 r.style.setProperty("--ds-color-los-angeles-95", "transparent")
 
