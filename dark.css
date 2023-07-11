@@ -22,7 +22,7 @@ body {
 }
 
 .ds-button {
-    color: var(--white);
+    color: var(--white) !important;
 }
 
 .ds-call-to-action {
