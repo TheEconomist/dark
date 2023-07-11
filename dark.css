@@ -33,7 +33,7 @@ body {
     background-color: var(--gray);
 }
 
-.ds-footer *, .ds-masthead-nav *, .ds-search-form * {
+.ds-footer *, .ds-masthead-nav *, .ds-search-form *, .ds-masthead-nav-lists * {
     color: var(--ds-color-london-5) !important;
 }
 
