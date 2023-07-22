@@ -2,7 +2,7 @@
 
 Chrome extension to read economist.com in dark mode (forked from https://github.com/TheEconomist/dark).
 
-![dark mode](example-fork.png)
+![dark mode](example.png)
 
 **Warning** this is NOT an officially supported extension.
 It uses injected stylesheets and a script to override some CSS variables.
