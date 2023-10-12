@@ -1,15 +1,57 @@
 /*https://bugs.chromium.org/p/chromium/issues/detail?id=776891*/
+:root {
+    color-scheme: dark;
+    --white: #f9f9f9;
+    --dark-gray: #242527;
+    --gray: #3a3b3d;
+}
+
+
 
 body {
-    background: black;
+    background: var(--dark-gray);
+    color: var(--white);
 }
 
 .article__body-aside, ._newsletterContentPromo {
     background-color: transparent !important;
 }
 
+.path-background {
+    fill: var(--dark-gray) !important;
+}
+
+.ds-button {
+    color: var(--white) !important;
+}
+
+.ds-call-to-action {
+    background: var(--ds-color-hong-kong-45) !important;
+}
+
+.ds-card-content {
+    background-color: var(--gray);
+}
+
+.ds-footer *, .ds-masthead-nav *, .ds-search-form *, .ds-masthead-nav-lists * {
+    color: var(--ds-color-london-5) !important;
+}
+
+.ds-search-form input, .ds-search-form button {
+    border-color: var(--ds-color-london-5) !important;
+}
+
+.ds-search-form path {
+    fill: var(--ds-color-london-5) !important;
+}
+
+
 ._content-promo-description {
-    color: white !important;
+    color: var(--white) !important;
+}
+
+.path-foreground {
+    fill: var(--white) !important;
 }
 
 .styled-masthead, .ds-masthead.account-is-open {
@@ -17,7 +59,7 @@ body {
 }
 
 .ds-masthead.account-is-open .ds-masthead-account-lists, .ds-masthead.is-open, .ds-masthead.search-is-open, #masthead-search, footer {
-    background-color: black !important;
+    background-color: var(--dark-gray) !important;
 }
 
 aside[data-component="infobox"] {
