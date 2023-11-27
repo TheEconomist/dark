@@ -6,8 +6,6 @@
     --gray: #3a3b3d;
 }
 
-
-
 body {
     background: var(--dark-gray);
     color: var(--white);
@@ -45,7 +43,6 @@ body {
     fill: var(--ds-color-london-5) !important;
 }
 
-
 ._content-promo-description {
     color: var(--white) !important;
 }
@@ -63,5 +60,5 @@ body {
 }
 
 aside[data-component="infobox"] {
-    background-color: transparent; !important;
+    background-color: var(--gray); !important;
 }
