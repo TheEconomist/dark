@@ -23,3 +23,6 @@ r.style.setProperty("--ds-color-chicago-30", "#f9f9f9");
 
 // Underlined text and buttons
 r.style.setProperty("--ds-color-chicago-45", "#1a2c78");
+
+// if like me you dislike the new serif typeface
+r.style.setProperty("--ds-type-system-serif", "EconomistSansLF")

@@ -60,5 +60,5 @@ body {
 }
 
 aside[data-component="infobox"] {
-    background-color: var(--gray); !important;
+    background-color: var(--gray) !important;
 }
