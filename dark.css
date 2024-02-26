@@ -1,7 +1,7 @@
 /*https://bugs.chromium.org/p/chromium/issues/detail?id=776891*/
 :root {
     color-scheme: dark;
-    --white: #f9f9f9;
+    --white: #eeeeee;
     --dark-gray: #242527;
     --gray: #3a3b3d;
 }
