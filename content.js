@@ -26,3 +26,6 @@ r.style.setProperty("--ds-color-chicago-45", "#1a2c78");
 
 // if like me you dislike the new serif typeface
 r.style.setProperty("--ds-type-system-serif", "EconomistSansLF")
+
+// anchor active background colour
+r.style.setProperty("--ds-color-chicago-95", "#transparent");
