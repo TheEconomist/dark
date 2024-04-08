@@ -15,6 +15,10 @@
         "https://economist.com/*",
         "https://www.economist.com/*"
       ],
+      "exclude_matches": [
+        "https://economist.com/interactive/*",
+        "https://www.economist.com/interactive/*"
+      ],
       "run_at": "document_start"
     }
   ]
