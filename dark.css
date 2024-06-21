@@ -62,3 +62,8 @@ body {
 aside[data-component="infobox"] {
     background-color: var(--gray) !important;
 }
+
+/* the cover on thu/fri */
+.css-1wi6041 {
+    background-color: transparent !important;
+}
