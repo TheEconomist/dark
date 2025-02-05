@@ -3,8 +3,9 @@
 const r = document.querySelector(':root');
 
 // text
+r.style.setProperty("--mb-colour-greyscale-london-5", "#eeeeee")
 r.style.setProperty("--ds-color-london-5", "#eeeeee")
-r.style.setProperty("--ds-color-london-10", "#eeeeee")
+// r.style.setProperty("--ds-color-london-10", "#eeeeee")
 
 // masthead menu background color
 r.style.setProperty("--ds-color-london-20", "#eeeeee")
