@@ -23,7 +23,7 @@ r.style.setProperty('--ds-color-london-100', '#0d0d0d')
 r.style.setProperty("--ds-color-los-angeles-95", "transparent")
 
 // anchor hover
-r.style.setProperty("--ds-color-chicago-30", "#eeeeee");
+r.style.setProperty("--mb-colour-base-chicago-30", "#eeeeee");
 
 // Underlined text and buttons
 r.style.setProperty("--ds-color-chicago-45", "#1a2c78");
