@@ -5,10 +5,13 @@ const r = document.querySelector(':root');
 // text
 r.style.setProperty("--mb-colour-greyscale-london-5", "#eeeeee")
 r.style.setProperty("--ds-color-london-5", "#eeeeee")
-// r.style.setProperty("--ds-color-london-10", "#eeeeee")
+r.style.setProperty("--mb-colour-greyscale-london-20", "#eeeeee")
 
 // masthead
 r.style.setProperty("--mb-colour-greyscale-london-100", "#0d0d0d")
+
+// the world in brief box
+r.style.setProperty("--mb-colour-canvas-los-angeles-95", "transparent")
 
 // special article banner
 r.style.setProperty("--ds-color-london-95", "#0d0d0d")
