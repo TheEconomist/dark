@@ -29,7 +29,7 @@ r.style.setProperty("--mb-colour-base-chicago-30", "#eeeeee");
 r.style.setProperty("--ds-color-chicago-45", "#1a2c78");
 
 // if like me you dislike the new serif typeface
-r.style.setProperty("--ds-type-system-serif", "EconomistSansOsF")
+r.style.setProperty("--mb-typeface-serif", "EconomistSans")
 
 // anchor active background colour
 r.style.setProperty("--ds-color-chicago-95", "#transparent");
