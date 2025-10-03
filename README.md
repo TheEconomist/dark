@@ -2,6 +2,8 @@
 
 Chrome extension to read economist.com in dark mode.
 
+Update: warning, this will break the Insider section of the website. Use at your own risk.
+
 ![dark mode](example.png)
 
 ## Disclaimer
