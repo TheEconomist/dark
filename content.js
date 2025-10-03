@@ -1,38 +1,29 @@
 // https://www.w3schools.com/css/css3_variables_javascript.asp
 
 const r = document.querySelector(':root');
+const insiderDark = "#0d0d0d";
+const insiderLite = "#f2f2f2";
 
-// text
-r.style.setProperty("--mb-colour-greyscale-london-5", "#eeeeee")
-r.style.setProperty("--ds-color-london-5", "#eeeeee")
-r.style.setProperty("--mb-colour-greyscale-london-20", "#eeeeee")
+// main text
+r.style.setProperty("--mb-colour-greyscale-london-5", insiderLite)
 
-// masthead
-r.style.setProperty("--mb-colour-greyscale-london-100", "#0d0d0d")
+// world in brief text
+r.style.setProperty("--mb-colour-greyscale-london-20", insiderLite)
+
+// masthead and body background
+r.style.setProperty("--mb-colour-greyscale-london-100", insiderDark)
 
 // the world in brief box
 r.style.setProperty("--mb-colour-canvas-los-angeles-95", "transparent")
 
 // special article banner
-r.style.setProperty("--ds-color-london-95", "#0d0d0d")
-
-// Share modal
-r.style.setProperty('--ds-color-london-100', '#0d0d0d')
-
-// box thingy
-r.style.setProperty("--ds-color-los-angeles-95", "transparent")
+r.style.setProperty("--ds-color-london-95", insiderDark)
 
 // anchor hover
-r.style.setProperty("--mb-colour-base-chicago-30", "#eeeeee");
+r.style.setProperty("--mb-colour-base-chicago-30", insiderLite);
 
-// Underlined text and buttons
-r.style.setProperty("--ds-color-chicago-45", "#1a2c78");
-
-// if like me you dislike the new serif typeface
-r.style.setProperty("--mb-typeface-serif", "EconomistSans")
-
-// anchor active background colour
-r.style.setProperty("--ds-color-chicago-95", "#transparent");
+// infobox (e.g. the rest of this cover package)
+r.style.setProperty("--mb-colour-base-new-york-95", "transparent")
 
 /*
 (async () => {
