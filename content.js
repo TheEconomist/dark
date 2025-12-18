@@ -25,6 +25,9 @@ r.style.setProperty("--mb-colour-base-chicago-30", insiderLite);
 // infobox (e.g. the rest of this cover package)
 r.style.setProperty("--mb-colour-base-new-york-95", "transparent")
 
+// if like me you dislike the new serif typeface
+r.style.setProperty("--mb-typeface-serif", "EconomistSans")
+
 /*
 (async () => {
     r.style.setProperty("--ds-type-system-serif", "Roboto");
