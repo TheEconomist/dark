@@ -8,6 +8,10 @@ a:focus {
     background-color: transparent !important;
 }
 
+body {
+    --mb-border-emphasised: 0.0625rem solid #333 !important;
+}
+
 footer {
     background-color: floralwhite !important;
 }
