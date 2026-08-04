@@ -28,6 +28,9 @@ r.style.setProperty("--mb-colour-base-new-york-95", "transparent")
 // if like me you dislike the new serif typeface
 r.style.setProperty("--mb-typeface-serif", "EconomistSans")
 
+// hr
+r.style.setProperty("--mb-colour-greyscale-london-85", "#333")
+
 /*
 (async () => {
     r.style.setProperty("--ds-type-system-serif", "Roboto");

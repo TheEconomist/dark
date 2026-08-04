@@ -6,3 +6,11 @@
 footer {
     background-color: floralwhite !important;
 }
+
+hr {
+    --mb-rule-colour: #333 !important;
+}
+
+header {
+    --mb-masthead-border: 0.0625rem solid #595959 !important;
+}
