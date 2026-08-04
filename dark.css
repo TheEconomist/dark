@@ -3,6 +3,11 @@
     color-scheme: dark;
 }
 
+a:active,
+a:focus {
+    background-color: transparent !important;
+}
+
 footer {
     background-color: floralwhite !important;
 }
