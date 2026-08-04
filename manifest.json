@@ -3,6 +3,15 @@
   "name": "The Economist Dark",
   "version": "2.1.0",
   "description": "Read economist.com in dark mode",
+  "icons": {
+    "16": "econ.png",
+    "32": "econ.png",
+    "48": "econ.png",
+    "128": "econ.png"
+  },
+  "action": {
+    "default_icon": "econ.png"
+  },
   "content_scripts": [
     {
       "js": [
